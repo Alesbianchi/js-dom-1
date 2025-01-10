@@ -2,16 +2,17 @@
 // Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
 
 // richiamo il bottone
-const bottone = document.querySelector('button');
+const bottone = document.querySelector('.button');
 // richiamo l'immagine
 const immagine = document.querySelector('img');
 
-document.querySelector('.light-off').url="./img/yellow-lamp"
 
 
 // Aggiungo un evento al bottone per cambiare l'immagine al clic
+bottone.addEventListener('click', function() {
+    // Cambia la sorgente dell'immagine con quella nuova
+    immagine.src = './img/yellow_lamp.png';   
+});
 
-
-// Cambia la sorgente dell'immagine con quella nuova
 
 
