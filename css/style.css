@@ -26,3 +26,8 @@
     background-color: #f1f1f1;
     cursor: pointer;  
 }
+
+.hoverImg{
+    background-image: url(../img/yellow_lamp.png);
+}
+
